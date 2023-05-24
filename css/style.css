@@ -1,5 +1,5 @@
 * {
-	margin: 0;
+	margin: 5px 5px;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -22,7 +22,7 @@
 	
 }
 .slider {
-	overflow: scroll;
+	overflow:hidden;
 }
 
 .slider img {
@@ -37,34 +37,37 @@
 
 }
 .box{
-	margin: 50px
-	padding:100px;
+	width: 100%;
+	
+
 }
 
 
 img:hover {
 	transform: scale(1.5);
-	color: red;
 	cursor: pointer;
 }
 
 
-.box {
-	text-align: center;
-	justify-content: right;
-	margin: 10px auto;
-	padding: 10px 10px;
 
+video{
+	width: 85%;
+	height: ;
+	
+	
 }
-.video{
-	width: 75%;
-	height: 100%;
+aside{
+	margin: 5%;
 	
 }
 
 footer {
 	font-size: 175%;
 	font-style: oblique;
+}
+iframe{
+	width: 85%
+
 }
 
 
@@ -77,18 +80,19 @@ h1 {
 
 }
 
-h2, span
+h3, 
 p {
-	font-size: 50px;
 	text-align: center;
+	font-style: oblique;
 }
 
 body {
 	border: 5px solid black;
 	border-radius: 100px;
 	text-align: center;
-	margin: 50px;
-	background-image: url(/IMG/fondo.jpg);
+	margin: 5px auto;
+	padding: 0px;
+	background-image: url(/IMG/imagendefondo2.jpg);
 	background-size: 100%;
 
 
