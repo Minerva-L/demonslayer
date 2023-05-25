@@ -130,17 +130,15 @@ body {
 	margin: 0;
   }
   
-  @media screen and (max-width: 767px) {
-	/* Estilos para pantallas pequeñas */
-  }
-
-  
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-	/* Estilos para pantallas medianas */
-  }
-
-  
-  @media screen and (min-width: 1024px) {
-	/* Estilos para pantallas grandes */
-  }
-  
+  @media screen and (max-width: 640px) {
+	}
+	
+	 
+	
+	@media screen and (min-width: 640px) and (max-width: 1280px) {
+	}
+	
+	 
+	
+	@media screen and (min-width: 1280px) {
+	}
