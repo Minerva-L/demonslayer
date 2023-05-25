@@ -130,18 +130,17 @@ body {
 	margin: 0;
   }
   
-  /* Estilos para pantallas pequeñas */
-@media screen and (max-width: 767px) {
-	/* Estilos para dispositivos móviles */
+  @media screen and (max-width: 767px) {
+	/* Estilos para pantallas pequeñas */
   }
+
   
-  /* Estilos para pantallas medianas */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-	/* Estilos para tablets */
+	/* Estilos para pantallas medianas */
   }
+
   
-  /* Estilos para pantallas grandes */
   @media screen and (min-width: 1024px) {
-	/* Estilos para computadoras de escritorio */
+	/* Estilos para pantallas grandes */
   }
   
