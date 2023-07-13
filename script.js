@@ -1,3 +1,10 @@
+const toggleMenuElement = document.getElementById('toggleMenuElement');
+const menuElement = document.getElementById('main-menu');
+
+toggleMenuElement.addEventListener('click', ()=>{
+  mainMenuElement.classList.toggle('main-menu--show');
+});
+
 // Obtener una referencia a la tabla
 var table = document.getElementById('miTabla');
 
