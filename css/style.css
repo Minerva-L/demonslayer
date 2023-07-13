@@ -1,4 +1,4 @@
-** {
+* {
 	margin: 5px 5px;
 	padding: 0;
 	box-sizing: border-box;
@@ -80,14 +80,6 @@ iframe{
 }
 
 
-h1 {
-	text-align: center;
-	text-decoration: underline;
-	font-size: 350%;
-	font-style: inherit;
-	font-family: 'Gill Sans';
-
-}
 
 h3, 
 p {
@@ -96,6 +88,7 @@ p {
 	background-color: rgba(255, 255, 255, 0.484);
 	 padding: 10px;
 }
+
 
 body {
 	border: 5px solid black;
@@ -147,15 +140,11 @@ html {
   h3 {
 	font-family:monospace;
   }
+ 
   
-  @keyframes slide {
-	0% {
-	  transform:translateX(-25%);
-	}
-	100% {
-	  transform:translateX(25%);
-	}
-  }
+
+
+  
 .styled-table {
 	width: 100%;
 	border-collapse: collapse;
